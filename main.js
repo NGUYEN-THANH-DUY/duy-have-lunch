@@ -37,12 +37,12 @@ const stop = () => {
     let randomPic5 = Math.random()
     let randomPic6 = Math.random()
 
-    let ran01 = Math.round(randomPic1 * 100 + 1604) % 6 + 1
-    let ran02 = Math.round(randomPic2 * 100 + 2708) % 6 + 1
-    let ran03 = Math.round(randomPic3 * 100 + 1912) % 6 + 1
-    let ran04 = Math.round(randomPic4 * 100 + 6552) % 6 + 1
-    let ran05 = Math.round(randomPic5 * 100 + 3271) % 6 + 1
-    let ran06 = Math.round(randomPic6 * 100 + 2204) % 6 + 1
+    let ran01 = Math.round(randomPic1 * 100) % 6 + 1
+    let ran02 = Math.round(randomPic2 * 100) % 6 + 1
+    let ran03 = Math.round(randomPic3 * 100) % 6 + 1
+    let ran04 = Math.round(randomPic4 * 100) % 6 + 1
+    let ran05 = Math.round(randomPic5 * 100) % 6 + 1
+    let ran06 = Math.round(randomPic6 * 100) % 6 + 1
 
     Num01.src = `img/0${ran01}.png`
     Num02.src = `img/0${ran02}.png`
@@ -97,11 +97,11 @@ let arrFood = ["Mắt má",
     "Gà đất",
     "Bánh canh Trảng Bàng",
     "Lẩu mắm",
-    "Năm long",
+    "Sushi",
     "Bún đậu mắm tôm",
     "7 Vững",
     "Gà Bến Đá",
-    "Nhịn, đi dìa !",
+    "Mỳ cay",
     "Cái Chảo",
     "Anh Đào",
     "Bà Hai",
@@ -111,11 +111,11 @@ let arrFood = ["Mắt má",
     "Gà đất",
     "Bánh canh Trảng Bàng",
     "Lẩu mắm",
-    "Năm long",
+    "Sushi",
     "Bún đậu mắm tôm",
     "7 Vững",
     "Gà Bến Đá",
-    "Nhịn, đi dìa !"
+    "Mỳ cay"
 ];
 
 
