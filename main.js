@@ -14,12 +14,12 @@ let run = setInterval(() => {
 
     let ran = Math.round(randomPic * 100 + 1604) % 6 + 1
 
-    Num01.src = `img/0${ran}.png`
-    Num02.src = `img/0${ran}.png`
-    Num03.src = `img/0${ran}.png`
-    Num04.src = `img/0${ran}.png`
-    Num05.src = `img/0${ran}.png`
-    Num06.src = `img/0${ran}.png`
+    Num01.src = `img/0${Math.ceil(ran*1547/6}.png`
+    Num02.src = `img/0${Math.ceil(ran*787/6}.png`
+    Num03.src = `img/0${Math.ceil(ran*8782/6}.png`
+    Num04.src = `img/0${Math.ceil(ran*4321/6}.png`
+    Num05.src = `img/0${Math.ceil(ran*5678/6}.png`
+    Num06.src = `img/0${Math.ceil(ran*3288/6}.png`
 
 }, 50);
 
